@@ -323,7 +323,7 @@ epoch：2，batch_size：8，数据集：VOC2007
 
 <img src="/Users/tang/Library/Application Support/typora-user-images/image-20200724111626818.png" alt="image-20200724111626818" style="zoom:50%;" />         <img src="/Users/tang/Library/Application Support/typora-user-images/image-20200725094234930.png" alt="image-20200725094234930" style="zoom:33%;" />
 
-在前面的基础加上Mosaic方法后，同样2个epoch后，mAP：0.99，有所进步，结果如下，因为SSD300输入是固定的300x300，感觉Mosaic和前面的padding一样，将物体的尺寸缩小了，同时也有利于小物体的检测；
+在前面的基础加上Mosaic方法后，同样2个epoch后，mAP：0.099，有所进步，结果如下，因为SSD300输入是固定的300x300，感觉Mosaic和前面的padding一样，将物体的尺寸缩小了，同时也有利于小物体的检测；
 
 ​      <img src="/Users/tang/Library/Application Support/typora-user-images/image-20200725101218361.png" alt="image-20200725101218361" style="zoom: 50%;" />    <img src="/Users/tang/Library/Application Support/typora-user-images/image-20200725094157387.png" alt="image-20200725094157387" style="zoom:33%;" />
 
